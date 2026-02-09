@@ -12,8 +12,8 @@ const sessionData = {
   teacher: {
     name: "Alex Martinez",
     avatar: "AM",
-    rating: 4.9,
-    sessionsCompleted: 28,
+    rating: 0,
+    sessionsCompleted: 0,
   },
   level: "Intermediate",
   duration: "1 hour",

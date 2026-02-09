@@ -36,7 +36,7 @@ export function HeroSection() {
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
                 Teach what you know, earn time credits, and learn anything you want. 
-                Join thousands of learners exchanging skills every day.
+                Join learners exchanging skills every day.
               </p>
             </div>
 
@@ -101,7 +101,7 @@ export function HeroSection() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-foreground">Active Learners</p>
-                  <p className="text-lg font-bold text-primary">12,500+</p>
+                  <p className="text-lg font-bold text-primary">0</p>
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ export function HeroSection() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-foreground">Session Rating</p>
-                  <p className="text-lg font-bold text-primary">4.9/5.0</p>
+                  <p className="text-lg font-bold text-primary">0.0/5.0</p>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ export function HeroSection() {
                     </div>
                   ))}
                 </div>
-                <p className="text-xs text-muted-foreground">+2.5k joined this week</p>
+                <p className="text-xs text-muted-foreground">0 joined this week</p>
               </div>
             </div>
           </div>

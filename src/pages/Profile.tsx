@@ -12,39 +12,14 @@ const userProfile = {
   teachingSkills: ["Python", "JavaScript", "React", "Node.js"],
   learningSkills: ["Guitar", "Photography", "Spanish", "UI/UX Design"],
   stats: {
-    sessionsCompleted: 28,
-    hoursEarned: 42,
-    avgRating: 4.9,
-    reviewsCount: 23,
+    sessionsCompleted: 0,
+    hoursEarned: 0,
+    avgRating: 0,
+    reviewsCount: 0,
   },
 };
 
-const reviews = [
-  {
-    id: "1",
-    author: "Sarah K.",
-    skill: "Python Basics",
-    rating: 5,
-    comment: "Amazing teacher! Explained complex concepts in such a simple way. Highly recommend!",
-    date: "2 weeks ago",
-  },
-  {
-    id: "2",
-    author: "Mike R.",
-    skill: "React Hooks",
-    rating: 5,
-    comment: "Very patient and knowledgeable. Helped me understand hooks much better.",
-    date: "1 month ago",
-  },
-  {
-    id: "3",
-    author: "Emma W.",
-    skill: "JavaScript",
-    rating: 4,
-    comment: "Great session overall. Would love to learn more advanced topics next time.",
-    date: "1 month ago",
-  },
-];
+const reviews = [];
 
 const Profile = () => {
   return (

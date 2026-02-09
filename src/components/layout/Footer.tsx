@@ -10,11 +10,12 @@ const footerLinks = {
   company: [
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
+    { name: "Community Guidelines", path: "/guidelines" },
     { name: "Careers", path: "/careers" },
   ],
   legal: [
-    { name: "Privacy", path: "/privacy" },
-    { name: "Terms", path: "/terms" },
+    { name: "Privacy Policy", path: "/privacy" },
+    { name: "Terms of Use", path: "/terms" },
   ],
 };
 
